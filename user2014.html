@@ -1,0 +1,159 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+
+
+        <meta name="description" content="Responsive Mobile App using R">
+        <meta name="author" content="Nilesh Shah">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/default.css" id="theme">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+            document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h1>Responsive Mobile App</h1>
+                    <h4>Using R</h4>
+                    <p>
+                        <small>Nilesh Shah <a ></a></small>
+                    </p>
+                    <p>
+                        <small><a href="http://user2014.stat.ucla.edu/">The R User Conference 2014,UCLA</a></small>
+                    </p>
+                </section>
+                <section>
+                    
+                    <section>
+                        <h4>English...</h4>
+                        <blockquote >
+                            &ldquo;to Quant, back to English&rdquo;
+                        </blockquote>
+                        <img class="stretch" width="500" height="500" src="img/p2.png" alt="data_graph">
+                    </section>
+
+                    <section>
+                        <h4>Michelle</h4>
+                        <blockquote >
+                            &ldquo;These are words...&rdquo;
+                        </blockquote>
+                        <img class="stretch" width="500" height="500" src="img/p3.png" alt="data_graph">
+                    </section>
+                    
+                    <section>
+                        <h2>Can Do?</h2>
+                    </section>
+
+                </section>
+                
+                <section>
+                    <section>
+                            
+                        <img class="stretch" width="500" height="500" src="img/p4.png" alt="cellsite">
+                    </section>
+
+                    <section>
+                        <img class="stretch" width="500" height="500" src="img/p5.png" alt="cellsite">
+                    </section>
+
+                </section>
+                
+                <section>
+                    <img class="stretch" width="500" height="500" src="img/p6.png" alt="cellsite">
+                </section> 
+
+                <section>
+                    <section>
+                        <h2>Algorithms in Detail</h2>
+                    </section>
+
+                    <section>
+                        <img class="stretch" width="500" height="500" src="img/p7.png" alt="cellsite">
+                    </section> 
+
+                    <section>
+                        <img class="stretch" width="500" height="500" src="img/p8.png" alt="cellsite">
+                    </section> 
+
+                    <section>
+                        <img class="stretch" width="500" height="500" src="img/p9.png" alt="cellsite">
+                    </section> 
+                
+                </section>
+
+                <section>
+                        <img class="stretch" width="500" height="500" src="img/p10.png" alt="cellsite">
+                    </section> 
+                
+                <section>
+                    <h1>Thank you!</h1>
+                    <p>Disclaimer: Not all images and videos are mine.</p>
+                </section>
+            </div>
+        </div>
+    
+        <script src="js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+        <script>
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                slideNumber: true,
+                overview: true,
+
+                theme: 'default', // available themes are in /css/theme
+                transition: 'concave', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                parallaxBackgroundImage: 'img/parallax-bg.png',
+                parallaxBackgroundSize: '5461px 2731px',
+                //transition: linear
+                /*multiplex: {
+                    // Example values. To generate your own, see the socket.io server instructions.
+                    secret: null, // null so the clients do not have control of the master presentation
+                    id: '44652b1a2df10bac', // id, obtained from socket.io server
+                    url: '128.199.234.59:1948' // Location of socket.io server
+                }, */
+                
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    
+                    { src: 'libs/socket.io/0.9.10/socket.io.min.js', async: true },
+                    { src: 'plugin/multiplex/client.js', async: true }
+                    
+                ]
+            });
+		</script>
+    </body>
+</html>
